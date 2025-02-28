@@ -1,16 +1,25 @@
-# Basic Chatbot Project 🤖  
+# Simple Chatbot 🤖💬
 
+This is a basic Python chatbot that greets users by name and responds to simple messages.
 
-This is a simple chatbot built using Python. It responds to user input and can be improved with more features!  
+## Features ✨
+- Asks for the user's name and greets them.
+- Responds to "hello", "how are you", and "bye".
+- Provides a default response for unknown inputs.
+- Keeps chatting until the user types "bye".
 
-## Features  
-- Basic conversation  
-- Simple text-based interaction  
+## How to Run 🚀
 
-## How to Run  
-1. Install Python (if not installed). 
-2. Open a terminal in the project folder.  
-3. Run the chatbot:  
+1. **Open a terminal in the project folder.**  
+2. **Run the chatbot:**  
    ```bash
    python chatbot.py
+3. **Chat with the bot! Type "bye" to exit.**
+
+## Dependencies🔧
+
+- Python 3.x
+(No external libraries needed)
+
+
 
