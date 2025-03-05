@@ -1,25 +1,46 @@
-# Simple Chatbot 🤖💬
+# Simple  AI-Powered Chatbot 🤖💬
 
-This is a basic Python chatbot that greets users by name and responds to simple messages.
+A simple AI-powered chatbot using spaCy NLP for natural language processing. The bot can greet users, respond to basic questions, and process user input intelligently.
+
+
 
 ## Features ✨
 - Asks for the user's name and greets them.
-- Responds to "hello", "how are you", and "bye".
+- Recognizes greetings, farewells, and common questions.
 - Provides a default response for unknown inputs.
+- Uses Natural Language Processing (NLP) with spaCy.
 - Keeps chatting until the user types "bye".
 
-## How to Run 🚀
+## Installation & Setup 🛠️  
 
-1. **Open a terminal in the project folder.**  
-2. **Run the chatbot:**  
+1. **Clone the Repository**  
    ```bash
-   python chatbot.py
-3. **Chat with the bot! Type "bye" to exit.**
+   git clone <https://github.com/annumaryroy/Basic-Chatbot.git>
+   cd <your-project-folder>
+2. **Create & Activate a Virtual Environment**  
+   ```bash
+   python3 -m venv venv  
+   source venv/bin/activate  # Mac/Linux  
+   venv\Scripts\activate  # Windows  
 
-## Dependencies🔧
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   python -m spacy download en_core_web_sm
+   
+## How to Run 🚀
+   ```bash
+python chatbot.py 
+```
 
-- Python 3.x
-(No external libraries needed)
-
-
+##  Example Usage
+Bot: Hey there! What's your name? 😃  
+You: Anu  
+Bot: Nice to meet you, Anu! Let's chat. 💬 Type 'bye' to exit.  
+You: Hello  
+Bot: Hi Anu! 😊  
+You: How are you?  
+Bot: I'm just a bot, but I'm doing great! 🤖 How about you, Anu?  
+You: Bye  
+Bot: See you later, Anu! 😊  
 
